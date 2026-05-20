@@ -1,19 +1,26 @@
-# Byte-compiled / optimized / DLL files
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python Cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environments (Must ignore)
-venv/
-.venv/
-env/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Streamlit specific
-.streamlit/
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
 
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Large files / Datasets / Trained Models (Itha GitHub-la etha kudadhu)
+*.h5
+*.pt
+*.pth
+*.weights
+dataset/
+data/
